@@ -36,6 +36,7 @@ int main(){
     str1 = str2;        // 가능한 표현
 
     cout << str1 << endl;
+    cout << str1[0] << endl;
 
     return 0;
 }

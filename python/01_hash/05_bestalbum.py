@@ -29,7 +29,7 @@ def solution(genres, plays):
 
     for g in sorted_genres:
         # print(g)
-        print(genres_dic)
+        # print(genres_dic)
         a = sorted(genres_dic[g], key=lambda x: x[0], reverse=True)[:2]
         print(a)
         for num, i in a:
@@ -39,6 +39,6 @@ def solution(genres, plays):
 
 
 if __name__ == "__main__":
-    genres = ["classic", "pop", "classic", "classic", "pop", "pop", "classic"]
-    plays = [500, 600, 150, 800, 2500, 1600, 2000]
+    genres = ["classic", "pop", "classic", "classic", "pop"]
+    plays = [500, 600, 150, 800, 2500]
     print(solution(genres, plays))  # Expected output: [4, 1, 3, 0]

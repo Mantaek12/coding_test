@@ -1,0 +1,11 @@
+# C/C++ build outputs
+*.out
+*.o
+*.obj
+*.exe
+
+# Local executable files
+cpp/test
+
+# VSCode
+.vscode/
